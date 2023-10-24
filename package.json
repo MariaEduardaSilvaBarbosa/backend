@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "dev": "tsx watch ./src/index.ts",
     "test": "vitest"
   },
   "author": "Maria Eduarda",
@@ -11,7 +12,8 @@
   "devDependencies": {
     "@types/express": "github:types/express",
     "tsx": "^3.14.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
   },
   "dependencies": {
     "axios": "^1.5.1",
